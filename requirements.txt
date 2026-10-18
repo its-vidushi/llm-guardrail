@@ -1,0 +1,29 @@
+# Guardrail & PII Shield - Python 3.12
+# Install PyTorch (CUDA 12.6 build) first:
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu126
+# then the rest:
+#   uv pip install -r requirements.txt
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch
+
+# notebooks and analysis
+ipykernel
+matplotlib
+pandas
+requests
+scikit-learn
+datasets
+
+# models
+laya==0.4.6
+transformers
+peft
+
+# Gemini API
+google-genai
+
+# proxy and dashboard
+fastapi
+uvicorn
+streamlit
