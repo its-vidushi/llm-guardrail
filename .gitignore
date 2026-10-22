@@ -1,4 +1,6 @@
-.venv/
 keys.py
-*.csv
+.venv/
 __pycache__/
+log.csv
+guard-lora/
+.ipynb_checkpoints/
