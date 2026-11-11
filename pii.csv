@@ -1,0 +1,301 @@
+text,label
+"My driving licence number is UP32 20210001234 and my passport is B7654321. Which one is accepted as address proof for hostel admission?",1
+"How do banks protect customers from credit card fraud, and what should I do if my card gets blocked?",0
+"My credit card 5555 5555 5555 4444 expires 11/27 and the CVV is 456. Can you explain why interest got charged even though I paid the minimum due?",1
+"What makes a strong password? Give me tips for creating one that I can still remember.",0
+"Mujhe pichle 3 mahine se anxiety ke attacks aa rahe hain aur doctor ne sertraline 50mg likhi hai. Exams ke time kaise manage karu?",1
+"Write a short email asking my professor for an extension on the assignment deadline.",0
+"My .env file looks like this, is it safe? DB_USER=admin DB_PASSWORD=Fake#Pass99 STRIPE_SECRET=sk_test_FAKE0000111122223333 AWS_KEY=AKIAFAKEFAKEFAKE1234",1
+"Parse this JSON for me: {""name"": ""Sneha Gupta"", ""pan"": ""QWERT5678Y"", ""account_no"": ""000123456789"", ""phone"": ""+91 90000 11111""}",1
+"What is the difference between a debit card and a credit card, and which is better for a student?",0
+"Mera PAN card kho gaya hai, duplicate PAN kaise apply karu?",0
+"Hostel ke WiFi ka password kaise change karte hain router ki settings mein?",0
+"How do I apply for an Indian passport as a student, and how long does it normally take?",0
+"How can I check whether my Aadhaar is linked to my mobile number on the UIDAI website?",0
+"I live at House No. 42, Imaginary Colony, Gomti Nagar, Lucknow 226010. Write a cover letter header with my address and phone 9123456780.",1
+"Can you help me fill my scholarship form? My Aadhaar number is 1234 5678 9012 and my date of birth is 14/03/2004.",1
+"Give me a 7-day study plan to prepare for my DBMS exam.",0
+"yaar mera UPI PIN 482916 hai aur main bhool jata hu, isko yaad rakhne ka koi trick hai?",1
+"INSERT INTO students (name, aadhaar, phone) VALUES ('Karan Mehta', '1111 2222 3333', '9000000001'); can you fix the syntax error here?",1
+"My GitHub personal access token is ghp_FAKEtoken1234567890abcdefghijklmnop and git push still fails with 403. What am I doing wrong?",1
+"What should I do if I think someone has misused my Aadhaar card to get a SIM?",0
+"Can you suggest five final-year project ideas using machine learning for a B.Tech student?",0
+"Write a polite email to my landlord. My name is Pooja Rawat, flat 303, Fake Heights, Sector 12, Noida 201301, phone +91 90000 22222, and the rent receipt number is RC-0001.",1
+"What is the time complexity of quicksort in the best, average and worst cases?",0
+"Passport number is A1234567 and expiry 12/2030. I am applying for a student visa; what documents do I need to attach?",1
+"Explain the difference between hashing and encryption when storing user passwords in a database.",0
+"Can you explain my blood report? Hemoglobin 9.8 g/dL, vitamin D 11 ng/mL, TSH 6.2. I'm a 20 year old female, is this serious?",1
+"Mujhe zero-balance savings account kholna hai, kaunse documents lagenge aur process kya hai?",0
+"bhai meri PAN card details check kar, number ABCDE1234F hai aur naam Rahul Verma, sahi format hai kya?",1
+"What is a CVV and why do websites ask for it during online payments?",0
+"Dear HR, I am submitting my documents for the internship. My bank account number is 9876 5432 1098, IFSC FAKE0000123, and my PAN is LMNOP4321K. Please confirm receipt.",1
+"Write a Python function that checks whether a string looks like a valid PAN number using a regex.",0
+"Wifi password of our hostel is Hostel@Fake2024, share it with new juniors in a polite message format.",1
+"How is diabetes diagnosed, and what is the difference between type 1 and type 2?",0
+"What documents are needed to link Aadhaar with my PAN card online?",0
+"Explain how KYC verification works for opening a bank account, step by step.",0
+"Why does this fail? const client = new OpenAI({ apiKey: 'sk-FAKE1234abcd5678efgh9012ijkl3456' }); const res = await client.chat.completions.create({ model: 'gpt-4o' });",1
+"My debit card number is 4111 1111 1111 1111, expiry 09/28 and CVV 123. Why is my online payment getting declined?",1
+"Hello sir, kindly update my KYC. PAN: ZZZZZ9999Z, Aadhaar 0123 4567 8901, mobile 9988776655.",1
+"Is it safe to store my API keys in a .env file, and how do I keep them out of GitHub?",0
+"Explain the difference between BFS and DFS with a simple example.",0
+"My exams are near and I get anxious a lot. Any breathing exercises or study routines that help?",0
+"Form fill karna hai: Name - Aman Tiwari, Father's name - Suresh Tiwari, DOB - 01/01/2003, Aadhaar - 1234 0000 5678, Mobile - 90000 33333, Address - Plot 9, Test Nagar, Kanpur.",1
+"Subject: Fee refund request. Dear Accounts Officer, I paid the semester fee twice by mistake, so kindly refund the extra amount to account number 123456789012, IFSC TEST0001234, State Bank of Fakeville, Lucknow branch. Regards, Ananya Singh, Roll No. 21CS045, B.Tech CSE 2nd year.",1
+"What are the common symptoms of vitamin D deficiency and how can I improve it through diet?",0
+"I keep forgetting this: my Gmail password is Student@1234 and the recovery email is riya.test123@example.com. Suggest a stronger one.",1
+"Hi, mera phone number 9876543210 hai, WhatsApp pe ek formal message draft kar do apne professor ko bhejne ke liye.",1
+"Can you explain what an IFSC code is and where I can find it for my bank branch?",0
+"How do I reset my Gmail password if I no longer have access to my recovery phone number?",0
+"I have been diagnosed with Type 1 diabetes and my last HbA1c was 9.1. I take insulin glargine 20 units every night. Can you plan a diet chart around my hostel mess food?",1
+"password = 'Admin@12345'; username = 'root'; conn = mysql.connector.connect(host='localhost', user=username, passwd=password)  # why does it say access denied?",1
+"Dear Sir/Madam, I, Arjun Chopra, S/o Ishita Srivastava, holding Aadhaar 9876 8045 7178, request you to issue a bonafide certificate for my education loan application.",1
+"What does vitamin B12 deficiency feel like and who is most at risk?",0
+"String upiId = ""neha.85@ybnpay""; String pin = ""713006""; // am I storing sensitive stuff the wrong way here?",1
+"Router admin panel at http://192.168.1.1, username admin, password chai*6114. How do I change the DNS?",1
+"How do I choose an ATM PIN that is hard to guess but easy to remember?",0
+"What is normalisation in DBMS? Explain 1NF, 2NF and 3NF with a short example.",0
+"What's the difference between a process and a thread?",0
+"Wi-Fi SSID: Boys_Block_YMQ Password: RiverPune14@. Write a notice for the hostel notice board.",1
+"Mera college email diyabose@campus.test aur password river9844FP hai, portal pe fees receipt download nahi ho rahi.",1
+"Please encrypt this string with AES in Python: 'aadhaar=3280 8458 5003;pan=HVQMX6538I;card=5255-7787-9432-6270' and show me how to decrypt it.",1
+"My voter ID is GUF0807370 and Aadhaar is 5822 2646 8616. Can I link them online?",1
+"Python: otp = '8898'; entered = input(); print('ok' if entered == otp else 'bad') - is comparing OTPs like this secure?",1
+"I entered card 6522 1449 7660 8565 exp 08-32 cvv 883 on a site and it says invalid card. Is the number wrong?",1
+"Write a Python snippet to mask the Aadhaar in users = [{'name': 'Tanvi Sharma', 'aadhaar': '456663632280', 'phone': '9423004876'}] except the last 4 digits.",1
+".env: SECRET_KEY=sgWtJIBi74I2XIAvAo3845ukKlVBLM4Y4rSwieABvjq JWT_SECRET=3Y1uv7lCypwI-lVdqVtxh-LvRXP_y8m-ZBLPt3e2HOa MAIL_PASS=pune459YJ - is this layout okay for production?",1
+"payment = {'card_number': '5319689821046028', 'cvv': '375', 'expiry': '06/2029'}; how do I mask these before logging?",1
+"Explain the concept of recursion with a real-life analogy.",0
+"How do I report a lost passport and apply for a replacement?",0
+"Write a cover letter for a software internship at a mid-sized startup. Use placeholders for my details.",0
+"What does 'KYC pending' mean on my wallet app and how do I complete it?",0
+"My vehicle number is UP32 ZI 1621 and RC owner is Rohan Das. How do I pay the challan online?",1
+"Give me tips to stay focused while studying for 6 hours.",0
+"Machine learning ke liye Python ki kaunsi libraries seekhni chahiye?",0
+"ATM PIN 7803 daalte hi card block ho gaya, kya mere PIN galat tha? Card ending 7041",1
+"Salary slip details: Net pay Rs 31,250, PAN TUPXL8280F, UAN 105822018051. Convert this into an ITR-friendly summary.",1
+"How can I rotate an API key safely without downtime for my app?",0
+"Bhai mera Aadhaar 928379298416 aur PAN EZZSQ6628Z link nahi ho raha, penalty kitni lagegi?",1
+"Help me prepare for a behavioural interview: how do I answer 'tell me about yourself'?",0
+"Recommend three books for learning system design.",0
+"Tips for staying mentally healthy during placement season?",0
+"What is the safest way to share my bank details with my employer for salary?",0
+"Explain the CAP theorem with an example.",0
+"ssh divyameh203@10.19.25.219 with password AaaNvXz4l3@mR - connection timed out, why?",1
+"login: meerasaxena88@example.net / password: OrangeMonsoon68* - lol i keep typing this wrong, can you suggest a mnemonic?",1
+"How does a binary search tree handle deletion of a node with two children?",0
+"Explain salting a password hash and why it matters.",0
+"Visa application: surname Chopra, given name Deepak, passport B3710528, travel date 14 Dec 2026, host address Flat 5D-1, Shanti Kunj, Malviya Nagar, Jaipur - 302007. Check the form for errors.",1
+"Slack bot token xoxb-792992398133-7027186158129-34MMg6sF7bQzE0vuqI5udBz9 - use it to post a message with python slack_sdk.",1
+"What is a virtual Aadhaar ID and why would someone use it?",0
+"How can I find out if my email address has been part of a data breach?",0
+"Give an example of a deadlock-free solution to the dining philosophers problem.",0
+"My Telegram bot token is 7465501351:gg3y-j8jpvICEUj1RUe0cnPGBnXjfydswSa, how do I set a webhook?",1
+"I'm filling a loan form. Name: Mohit Joshi, Mobile: +91-6792232838, Email: divya_saxena@campus.test, PAN: YESQP2527R, Monthly income: Rs 18,500, Address: B-128, Orchid Greens, Civil Lines, Kanpur - 208019. Check for mistakes.",1
+"Doctor ne bola hai ki mujhe typhoid hai, aur Widal test positive aaya. 5 din ki leave ke liye medical leave application likh do, naam Karthik Thakur, roll no 22BCS3613.",1
+"Our teacher shared the exam portal login: ID 210013315604 password z7$jQ1ibjhoRK. It says account locked, what should I do?",1
+"Please verify my KYC details: Aadhaar 3399 8698 7973, PAN CDJKO0753M, DOB 09-06-2003.",1
+"Is it okay to take paracetamol on an empty stomach?",0
+"Insurance policy no. POL244845263 for Aarav Thakur, premium due next month. Help me write a reminder to my dad.",1
+"I am Tanvi Joshi, Aadhaar number 9663-4400-2978. I lost my ration card and need an application to the tehsildar for a duplicate copy.",1
+"Explain how a hash table works and its collision handling methods.",0
+"Emergency contact: Divya Singh (father) +91 75750 69426, Deepak Joshi (guardian) +91 64331 79143. Format this for the hostel register.",1
+"What are good questions to ask the interviewer at the end of an internship interview?",0
+"Write a Python script that renames all files in a folder by adding today's date.",0
+"Explain the difference between a compiler and an interpreter.",0
+"My eyesight is -3.25 in the right eye and -2.75 in the left. Is LASIK a good option at my age?",1
+"ADHD diagnosed last month, prescribed methylphenidate 18mg. How do I explain this to my hostel warden?",1
+"How do I prepare a 5-minute presentation on blockchain?",0
+"How do I get better at competitive programming in 3 months?",0
+"I want help writing my SOP. Details: Riya Mehta, born 05-09-2005, from Kanpur, passport H3744043, phone 06964282431, email kavya.rawat@campus.test. I did a B.Tech in CSE and want to apply for an MS in data science.",1
+"Why do some websites ask me to save my card, and is tokenization really safer?",0
+"Registered post details: To: Rohan Tiwari, Plot 6, Orchid Greens, Whitefield, Bengaluru - 560045. From: The Principal, City Engineering College. Fix the formatting of this address block.",1
+"I have a peanut allergy and carry an EpiPen. Suggest snacks for a 12-hour train journey.",1
+"Suggest healthy snacks I can keep in my hostel room.",0
+"Library system: member id 230092102549, PIN 0921. Draft a request to reset it.",1
+"I use the password tiger-846 for my college portal and my email. Is that bad?",1
+"Write a SQL query to mask card numbers in this table. Sample row: (1, 'Harleen Verma', '4442248527220226', '08/31').",1
+"How do I generate a GitHub personal access token and what scopes are needed for pushing code?",0
+"my aadhaar is 968469788093 can u tell me how to download the e-aadhaar pdf with this",1
+"Explain what a pull request is and how code review usually works.",0
+"Explain how password managers work and whether they are safe.",0
+"$conn = new mysqli('localhost', 'root', 'moBYp6S%', 'students'); if ($conn->connect_error) die('failed'); // PHP, getting access denied",1
+"Describe a simple algorithm to detect a cycle in a linked list.",0
+"Check my React login form: const [pass, setPass] = useState('river&8450'); - hardcoding like this is okay for testing right?",1
+"What topics should I cover for the campus placement aptitude round?",0
+"What is the best way to take notes during online lectures?",0
+"mere credit card 6521-8495-1838-0125 pe EMI convert karna hai, CVV 739 hai, process batao step by step",1
+"I'm a 21-year-old male, 78 kg, and my doctor says my LDL is 176 and BP is 146/97. What lifestyle changes should I make before the next checkup?",1
+"How can I make my GitHub profile README stand out?",0
+"My dad's reports: creatinine 2.4 mg/dL, eGFR 41, stage 3 CKD, on amlodipine 5mg. What diet is advised?",1
+"Make this into a clean table: Manish Khan, 857212835769, KRNB09UQF33; Nikhil Joshi, 91440190187916, TLGB048BJUI; Vivaan Gupta, 7284001981, DNSB0JT4PU3.",1
+"My sister is 23 weeks pregnant and her glucose test came back at 174 mg/dL. Her doctor wants a retest. Should we worry?",1
+"What is a CIBIL score and how can I check it for free?",0
+"Draft an email to the bank: account no 634789713311592, holder Harsh Pandey, I want to close this account and transfer the balance. Registered mobile 76360 82445.",1
+"Patient record: Pooja Ahmed, DOB 26 December 2003, blood group B-negative, allergic to penicillin, diagnosed with epilepsy in 2021. Convert this into a table for my health informatics assignment.",1
+"Diagnosed with iron-deficiency anemia, hemoglobin 8.9 and ferritin 6. My doctor prescribed ferrous sulfate, but it upsets my stomach. Any alternatives?",1
+"The OTP I just got is 1430 but the bank app says expired. Why does it expire so fast?",1
+"Explain what BMI is and what its limitations are.",0
+"Flask route: @app.route('/pay') def pay(): return process(card='5247285568983298', cvv='222', amount=499) - how do I write a unit test for it?",1
+"What should a student know about travel insurance before applying for a visa?",0
+"Explain how HTTPS protects passwords when I log into a website.",0
+"My mom has stage 2 breast cancer and starts chemo next week, I'm 20 and don't know how to support her. Any advice?",1
+"Pls help me write an affidavit: I, Nikhil Dubey, S/o Anjali Chopra, resident of Flat 2A-3, Anand Vihar Society, Bairagarh, Bhopal - 462088, holding Aadhaar 9652 3735 5696, declare that my name is spelled differently on my marksheet.",1
+"What is the difference between a savings account and a current account, and which one does a student startup need?",0
+"SIM card ICCID 8991334635213629586 and my number 7984886457 - the network says SIM not registered, how to fix?",1
+"yaar mera naya number 98557 56605 hai, purana band ho gaya. Group mein bhejne ke liye ek funny message bana.",1
+"mongoose.connect('mongodb://admin:w!Y8u3$yV@localhost:27017/college'); // connection refused, help",1
+"My notes: Gmail ananya.mehta20@mail.example pw rocket834DS, Canva vivaanmishra38@example.org pw LucknowSunny23-, Notion mohit.patel87@campus.test pw vKX%PKtGr5 - make a table.",1
+"I was admitted for dengue in October, platelets dropped to 50,000. When can I safely resume the gym?",1
+"Explain what a REST API is to a complete beginner.",0
+"I'm confused between DevOps and web development as a career, can you compare them?",0
+"Write a thank-you note to a senior who helped me with my internship referral.",0
+"Respected Sir, mera naam Anjali Bansal hai, roll no 21BIT7615. Mera Aadhaar 614659085380 aur mobile +91 62911 02859 hai. Kripya mera scholarship form update kar dein.",1
+"Write unit tests in pytest for a function that adds two numbers.",0
+"Describe the steps to apply for a student credit card in India.",0
+"Explain OAuth 2.0 and how it differs from storing a username and password.",0
+"Group discussion mein confidently kaise bolu jab topic pata na ho?",0
+"What's the difference between 'affect' and 'effect'?",0
+"Please deliver the laptop to Plot 8, Orchid Greens, Viman Nagar, Pune - 411031. Contact +91 92448 71774. Write a delivery instruction note for the courier.",1
+"git remote set-url origin https://simranpatel44:ghp_WBf4mPm7IabumbO1ugqFH1ARvIVNocw1RKTF@github.com/simranpatel44/major-project.git - is this the right way to push using a token?",1
+"Hi Claude, can you proofread: 'Dear Professor, I am Varun Singh (roll 24BCS5115, mobile 08714732312). I was absent on 3 November due to fever (temperature 102 F) and request your kind consideration.'",1
+"const firebaseConfig = { apiKey: 'AIza-2hRUzGSZkc37gf8s8ZpTpHpF2CAJB6bpe8', authDomain: 'mini-project.firebaseapp.com', projectId: 'mini-project' }; Firebase auth throws invalid-api-key, why?",1
+"Ye mail summarise kar do: 'Dear Nikhil Kulkarni, your Aadhaar 3854 9145 2441 has been successfully seeded with your bank account 5001304118955. Regards, Admin'.",1
+"What is the difference between a bank account number, a UPI ID and an IFSC code?",0
+"Online banking mein beneficiary add karna kya hota hai aur safe kaise rahein?",0
+"How should I store user passwords in a MySQL database for my college project?",0
+"ERROR 2026-11-02 14:22:01 auth failed for user=riya_sharma26@mail.example password=MonsoonPune00! ip=192.168.160.164 - what does this log tell me?",1
+"Draft a polite email declining an internship offer because I accepted another.",0
+"Zoom meeting ID 082 3595 3494 passcode vJ9J6%j-qI - draft an invite to my project group.",1
+"What are common signs of a phishing SMS pretending to be from my bank?",0
+"Netflix login: dev.sharma70@example.com / t@zCeV5ezeN&#9. Share the plan details with 3 friends via a message template.",1
+"Mera BP 162/101 aata hai aur doctor ne telmisartan likhi hai. Kya main intense gym kar sakta hu?",1
+"Discord bot token: sz1MtZ0c4pDlbuAIp026i0Ay.R6aEvy.WTk0Mh_wfF3vxe40QF_load_0cd - my bot comes online then disconnects. Fix?",1
+"What's the minimum balance rule in a typical savings account and what are the penalties?",0
+"Allergies: sulfa drugs and shellfish. Medications: levothyroxine 75 mcg daily. Fill this into my college health declaration form in a neat format.",1
+"Why do banks ask for a cancelled cheque during onboarding?",0
+"My hepatitis B surface antibody titer came back at 6 mIU/mL, which the lab flagged as non-immune. Do I need a booster?",1
+"How do I file my first income tax return if I only earned a stipend from an internship?",0
+"Write a short motivational message for juniors starting their first year.",0
+"What is the role of a nominee in a bank account or PF?",0
+"Gate pass request: Student Sneha Agarwal, Roll 23BEC8662, parent contact 81162 69583, reason: home visit, medical (dialysis follow-up for father).",1
+"What are the symptoms of iron-deficiency anaemia, and which foods are rich in iron?",0
+"Write a Python program to reverse a linked list.",0
+"How is the stack different from the heap in memory?",0
+"Quick: Aadhaar 4265 4908 9823 | Mobile 8305906192 | Email varun_rawat35@example.net - convert this into a JSON object for a Google Form.",1
+"What are the early symptoms of dengue and when should someone see a doctor?",0
+"Explain how two-factor authentication protects my email account.",0
+"Explain the working of a transformer model without heavy math.",0
+"How does Aadhaar-based eKYC work for getting a SIM card?",0
+"What should go in a medical leave application? Give me a general template with placeholders.",0
+"Can you explain gradient descent in simple words?",0
+"Aadhaar: 4645 1547 4284 - spelling of my name is wrong, how to correct?",1
+"Create a 5-question quiz on Python lists.",0
+"Suggest a name for my college tech fest app and a tagline.",0
+"Can a bank freeze my account without notice, and what should I do in that case?",0
+"My function validate_pan('ZGHKT0845E') keeps returning False. Code: def validate_pan(p): return bool(re.fullmatch(r'[A-Z]{3}[PCHFATBLJG][A-Z][0-9]{4}[A-Z]', p)) - why is it rejecting this?",1
+"Explain what an API rate limit is, and how do I store an API key in a React app securely?",0
+"headers = {'Authorization': 'Bearer sk-PBNDMyRgx30BWRCLuKywaWwyVwYqYEaxADcMb3TsIIYdhXvB'}  # requests.post keeps returning 401, what's wrong?",1
+"Is it legal for a hostel to collect copies of my Aadhaar card?",0
+"Explain the difference between supervised and unsupervised learning.",0
+"What are the side effects of taking too much caffeine during exam season?",0
+"Kya PAN card ke bina bank account khul sakta hai?",0
+"My number is +91 62579 78176 and email pallavisrivastava99@mail.example. Draft a LinkedIn connection message to a recruiter at a startup.",1
+"How do I open a Demat account as a college student?",0
+"Which password hashing algorithm should I use: bcrypt, scrypt or Argon2?",0
+"Why is my Python loop printing the same value every time? for i in range(3): print(x)",0
+"Write a regex that matches Indian mobile numbers, and explain each part of it.",0
+"Mera naam Manish Kapoor hai, mujhe Lucknow mein PG chahiye. Mera number 6016992938 hai aur budget 6000.",1
+"Is it fine to share my PAN FNXZC4751G on a college form? They need it for scholarship disbursal.",1
+"Lab report: TSH 10.9 mIU/L, free T4 1.1 ng/dL, anti-TPO positive. Patient: Siddharth Bansal, age 22. What does hypothyroidism mean for my diet?",1
+"Bank SMS: A/c XX6603 debited Rs 2,350 on 05-11-2026 to ishita284@axbpay. Avl bal Rs 11,820. I don't remember this payment, is it fraud?",1
+"Meri permanent address: H.No. 209, Kalpana Nilayam, Sector 15, Noida - 201329. Isko bonafide application mein sahi format mein likh do.",1
+"Explain Big O notation using everyday examples.",0
+"Got diagnosed with asthma last year, I use a salbutamol inhaler twice a day and wheeze after sprints. Can I still play outdoor sports?",1
+"I have ulcerative colitis, last flare was in August and I take mesalamine daily. Which hostel mess foods should I avoid?",1
+"whatsapp group ke liye message likh: contact Aarav Chauhan at +91 81861 34069 for the hackathon registration.",1
+"What are the pros and cons of using TypeScript over JavaScript?",0
+"Mujhe PCOS hai aur doctor ne metformin 500mg start ki hai, periods irregular hain. Hostel mein kya khana chahiye?",1
+"From: Imran Agarwal simran.saxena458@example.net To: placement@example.edu Subject: Documents. Hi, attaching my PAN (EWXKA8394S) and Aadhaar (8688 2811 2658) for verification. Regards, Imran Agarwal",1
+"Subject: Bank details for stipend. Hello team, my account number is 9736087243 with IFSC DNSB0R1BW7K. Phone +91-6953918276 in case of issues. Thanks, Aman Bose",1
+"Fix my Node code: const db = mysql.createConnection({ host: 'localhost', user: 'gurpreet.kha', password: 'SunnyOrange73$', database: 'hostel' }); db.connect() throws ER_ACCESS_DENIED_ERROR.",1
+"How do I recover my Instagram account if I forgot my password and email?",0
+"Call me on +91 94777 63886 after 6 pm, this is Kunal Joshi from 3rd year ECE. Can you turn this into a polite voicemail script?",1
+"Got a call from someone asking for my OTP, I almost gave 907418 to them. What should I have done?",1
+"Sir mera bank account 18316632337 hai, IFSC RNBL0XK8113. Scholarship ka paisa abhi tak nahi aaya, application likh do.",1
+"Convert 5 miles to kilometres and explain the formula.",0
+"Explain Dijkstra's algorithm step by step on a small graph.",0
+"Kal ek form bharna hai: Father's mobile 08438299321, Mother's Aadhaar 3649 4157 7188, family income Rs 2.4 lakh per year. Ye sab ek declaration letter mein daal do.",1
+"Help me come up with a 4-line bio for my club's Instagram page.",0
+"How do I center a div in CSS?",0
+"What is the difference between Aadhaar and a PAN card, and when do I need each?",0
+"Card number: 5406 2048 4259 9677 | Expiry: 01-28 | CVV: 145 | Name: Vivaan Das. Make this into a neat table for my expense report.",1
+"Explain the difference between a debit card payment, UPI and net banking for online shopping.",0
+"What is blood pressure and what counts as high, normal and low?",0
+"const user = { name: 'Rahul Srivastava', pan: 'CUWNT7447M', password: 'Rocket_39' }; console.log(user) - how do I avoid logging the sensitive fields?",1
+"Driving licence MP-2320168771884 of Farhan Bose expires soon. How do I renew it online?",1
+"Draft a lost-card complaint: card 4618 8479 1889 5755 (exp 02/31) was lost on 6 Nov while travelling from Lucknow to Delhi. Please block it. Customer name: Priya Thakur, mobile +91-9193073368.",1
+"Mera Instagram password coffee$9650 hai, hack hone se bachne ke liye kya karna chahiye?",1
+"Docker compose: POSTGRES_USER=nikhilmalh POSTGRES_PASSWORD=Pune#7705 POSTGRES_DB=attendance - container exits immediately, help.",1
+"Write a short poem about monsoon in a hostel room.",0
+"How do I stay motivated after getting rejected from a few internships?",0
+"Passport ke liye police verification kaise hoti hai aur kitna time lagta hai?",0
+"Suggest a weekly timetable balancing coding practice, classes and sports.",0
+"Give me 10 beginner-friendly open source projects to contribute to.",0
+"ngrok authtoken ozUdQxvbsKzx8DaKAdvBqSoonGD_7Y2RMkyI2EDgaNW7Mzsq - ngrok config add-authtoken throws an error, help.",1
+"How long does it take to receive a new debit card after applying online?",0
+"Plan a 3-day trip to Jaipur for four college friends on a tight budget.",0
+"Break down the steps to deploy a Flask app on Render.",0
+"Stripe key sk_live_H9wzdDcbkinIzWSLzM5vnqoi - how do I do a test refund?",1
+"Twilio SID AC7a3cfd4ae682483e5c87dc4505049440 and auth token 94c57e0b1c13e093a3e13774a5cbd6f4 - send an SMS to 9608219612 with Node.",1
+"I get migraines with aura about twice a month and take sumatriptan 50mg. Is it safe to drink coffee with it?",1
+"Transfer Rs 5000 to account 58581762528, IFSC KRNB04ADGWQ, beneficiary Shreya Das. What details am I missing to complete the NEFT?",1
+"AWS_ACCESS_KEY_ID=AKIA3YEXZEAXFR9OMVQF AWS_SECRET_ACCESS_KEY=MojC7SrvtyGpXG8UyywU8irKgSCJ8eNtI6YnANpH - configure these for boto3 in my Flask app",1
+"Dyslexia diagnosed in school, I get 25% extra time in exams. How do I request this accommodation for the entrance test?",1
+"Blood group O-positive, height 172 cm, weight 91 kg, BP 138/98. College fitness form asks BMI category, calculate and explain.",1
+"My UPI ID is siddharth.03@oknovabank and my UPI PIN is 7805. Payment is stuck, is it safe to retry?",1
+"Write a WhatsApp status asking for blood donors: patient Kunal Chauhan, B-positive, admitted in Jaipur, contact +91 85572 23488.",1
+"How do I use environment variables to hide secrets in a Django project?",0
+"My passport Y3052589 expires in 2031, do I need to renew before applying for a student visa?",1
+"How much water should a college student drink in a day, roughly?",0
+"Bhai ye dekh, Aadhaar no. 3967 2731 7784 pe mobile link nahi ho raha, ab kya karu?",1
+"Aadhaar card mein address kaise update karte hain online?",0
+"Mera PAN XNEYA1079R hai aur naam Siddharth Bansal, income tax portal pe login nahi ho raha, user ID wahi PAN hota hai na?",1
+"My IMEI is 494093426927670. Phone got stolen. How do I block it and file a complaint?",1
+"I'm on isotretinoin 20mg for severe acne, doctor said avoid sun. Any tips for walking to college in summer?",1
+"How do I write a good LinkedIn headline for a CSE student?",0
+"What's a good way to learn data structures in 30 days?",0
+"Need to open a demat account. Details: Ishita Iyer, PAN ADMIB5500Q, bank account 847517799229, IFSC RNBL01V3OE9, nominee Divya Verma. List the next steps.",1
+"Menstrual cycle details: 45-day cycles for 6 months, doctor suspects endometriosis, ultrasound shows a 3 cm ovarian cyst. What should I ask in the next appointment?",1
+"# config.yml smtp: host: smtp.example.com user: nikhil.iyer23@students.example password: 33zlYWVB_!HOEQ - how do I keep this out of git?",1
+"How can I teach my grandparents to spot UPI scams?",0
+"How do I start learning about cloud computing from scratch?",0
+"What does 'idempotent' mean in the context of HTTP methods?",0
+"What are the key differences between TCP and UDP?",0
+"Translate 'I would like to request a leave for two days' into Hindi.",0
+"Ye CSV clean kar: roll,name,phone; 210024800527,Aman Yadav,+91 92987 11209; 22BIT4260,Riya Reddy,9447967452 - markdown table bana do.",1
+"What is a mutual fund SIP and how do I start with a small monthly amount?",0
+"Mera resume ek page mein kaise fit karu? Kaunse sections hata dun?",0
+"What's the difference between a PIN and an OTP when making online payments?",0
+"How can I improve my English speaking skills for interviews?",0
+"Mujhe samajh nahi aa raha ki credit card ka billing cycle aur due date mein kya fark hota hai.",0
+"curl -H 'x-api-key: hf_Jf2mVrlfDloUXo7tNAD1Dc8r29U40sSfOc' https://api.example.com/v1/models  # works in terminal but not in Postman",1
+"Resume header: Rahul Yadav | +91 64395 46180 | nikhil_reddy724@students.example | Room 356, Block C, Anand Vihar Society, Vaishali Nagar, Jaipur - 302058. Suggest a cleaner layout.",1
+"Is this IFSC RNBL0ZP6U0C correct for transferring my fees? Account no: 89273197967.",1
+"How do I use the map function in Python with a lambda?",0
+"My therapist says I have generalized anxiety disorder and I'm on escitalopram 10mg. Will it affect my concentration during exams?",1
+"Tuberculosis treatment day 62, taking rifampicin and isoniazid. Is it okay to travel for a hackathon next week?",1
+"What is Form 16 and do interns get it?",0
+"What is the Pythagorean theorem and where is it used in computer graphics?",0
+"What are the best practices for naming Git branches?",0
+"Write a SQL query to find the second highest salary from an Employee table.",0
+"I accidentally pushed my key sk-proj-qlc72i4_h58Smg0x2iGF2nSvbsNH3nCUj0kHO2NDx1GeG6L0HA4uTNHNoFazROpR to a public repo. What should I do right now?",1
+"How does a credit score work and what affects it?",0
+"How can I practice good sleep hygiene as a student with a hectic schedule?",0
+"What are some good icebreakers for a college club meeting?",0
+"Can I change my name on my Aadhaar card, and how many times is it allowed?",0
+"Mom's debit card 5375 4072 0754 7354 exp 12/2030, she asked me to book train tickets on IRCTC. Walk me through the payment screen.",1
+"Mujhe operating system mein deadlock samajhna hai, simple example ke saath batao.",0
+"Summarize the main differences between SQL and NoSQL databases.",0
+"Hostel form details: Roll 240024744805, mobile +91 89806 55856, Aadhaar 7284 5618 6340, room preference single. Please format it as a neat form.",1
+"Mera passport number D5893949 hai, dob 9 November 2006. Internship ke liye abroad apply karna hai, kaunse documents chahiye?",1

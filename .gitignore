@@ -1,6 +1,11 @@
+# secrets
 keys.py
+
+# environment and caches
 .venv/
 __pycache__/
+.ipynb_checkpoints/
+
+# generated while running
 log.csv
 guard-lora/
-.ipynb_checkpoints/

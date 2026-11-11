@@ -20,9 +20,6 @@ laya==0.4.6
 transformers
 peft
 
-# Gemini API
-google-genai
-
 # proxy and dashboard
 fastapi
 uvicorn
