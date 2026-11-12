@@ -1,0 +1,9 @@
+guard,test set,accuracy,missed,false alarms,median ms
+Laya,injection,0.664,39,0,239
+Laya,personal data,0.65,17,4,322
+mini-Jev (tuned),injection,0.966,3,1,144
+mini-Jev (tuned),personal data,0.767,0,14,225
+Clef-flash,injection,0.56,51,0,520
+Clef-flash,personal data,0.933,3,1,320
+mini-Jev (untuned),injection,0.526,51,4,107
+mini-Jev (untuned),personal,data,0.467,23,9,120
