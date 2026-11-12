@@ -2,7 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 NAME = "Qwen/Qwen3-0.6B"
-ADAPTER = None  # after fine-tuning (Core guide), set this to "guard-lora"
+ADAPTER = "guard-lora"  # after fine-tuning (Core guide), set this to "guard-lora"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"  # up to 26 options
 
