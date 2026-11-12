@@ -46,7 +46,6 @@ dashboard (Streamlit) -> proxy (FastAPI, /chat) -> guard (mini-Jev) -> allow / a
 | `04_thresholds.ipynb` | score distributions, thresholds and the allow / ask / block charts |
 | `pii.csv`, `pii_test.csv` | personal-data training set (300) and test set (60), all fake data |
 | `results/` | saved tables and charts |
-| `logs/` | daily project log |
 
 ---
 
