@@ -1,35 +1,42 @@
 import csv, time
 from fastapi import FastAPI
 from pydantic import BaseModel
-from google import genai
 from guard import check
-from keys import GEMINI_API_KEY
 
 app = FastAPI()
-# gemini = genai.Client(api_key=GEMINI_API_KEY)
-# MODEL = "gemini-3.1-flash-lite"  # or any model with free quota in AI Studio
+ALLOW_BELOW, BLOCK_ABOVE = 0.2, 0.8
 
 class Prompt(BaseModel):
     text: str
+    confirmed: bool = False
 
 def call_llm(text):
-    """Placeholder: connect any LLM here and return its reply as a string.
-    Returning None means no model is connected, so prompts are only screened."""
+    """Placeholder: connect any LLM here and return its reply as a string."""
     return None
-    # To test the allowed path without a real model, use: return "Echo: " + text
+
+def decide(risk):
+    top = max(risk.values())
+    if top > BLOCK_ABOVE:
+        return "block"
+    if top < ALLOW_BELOW:
+        return "allow"
+    return "ask"
 
 @app.post("/chat")
 def chat(p: Prompt):
     t = time.perf_counter()
     risk = check(p.text)
     ms = round((time.perf_counter() - t) * 1000)
-    blocked = risk["injection"] > 0.5 or risk["sensitive"] > 0.5
+    decision = decide(risk)
+    if decision == "ask" and p.confirmed:
+        decision = "confirmed"
     with open("log.csv", "a", newline="", encoding="utf-8") as f:
-        csv.writer(f).writerow([round(time.time()), round(risk["injection"], 2), round(risk["sensitive"], 2), blocked, ms])
-    if blocked:
-        return {"blocked": True, "risk": risk, "guard_ms": ms}  # Gemini is never called
-    # reply = gemini.interactions.create(model=MODEL, input=p.text).output_text
+        csv.writer(f).writerow([round(time.time()), round(risk["injection"], 2), round(risk["sensitive"], 2), decision, ms])
+    if decision == "block":
+        return {"decision": "block", "risk": risk, "guard_ms": ms}
+    if decision == "ask":
+        return {"decision": "ask", "risk": risk, "guard_ms": ms,
+                "warning": "This prompt may contain sensitive data or an injection. Remove that part, or send it anyway."}
     reply = call_llm(p.text)
-    if reply is None:
-        return {"blocked": False, "risk": risk, "guard_ms": ms, "note": "allowed; no LLM connected"}
-    return {"blocked": False, "reply": reply, "guard_ms": ms}
+    note = "no LLM connected" if reply is None else None
+    return {"decision": decision, "risk": risk, "guard_ms": ms, "reply": reply, "note": note}
